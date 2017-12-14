@@ -13,3 +13,5 @@
 
 ### 注意事项
 由于csv文件需要在多个平台下同时兼容excel和github等软件，因此编码格式设置为了UTF8-BOM格式，请大家不要更改编码格式。同时请每次修改之前都先pull(sync)一下，之后再修改上传，以免出现冲突。
+
+注：**现已经提供编码格式转换脚本，csv_encoding_convert_py2.py与csv_encoding_convert_py3.py，分别对应python2和python3环境，大家可以在修改完csv之后运行一下相关版本的脚本，确保将csv文件调整为了UTF8-BOM格式**
